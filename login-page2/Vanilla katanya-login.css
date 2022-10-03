@@ -1,0 +1,806 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url();
+}
+
+body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+*{
+    
+    background: #F8F8FA
+}
+
+nav{
+    width: 89%;
+    position: sticky;
+    margin-top: 43px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.navlist{
+    flex: 1;
+    align-items: center;
+    margin: 0px 170px;
+}
+
+.navlist ul li{
+    list-style: none;
+    display: inline-block;
+    
+    margin-left: 81px;
+    align-items: center;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color:#150A28;
+    font-family: Montserrat;
+    font-style: normal;
+    transition: 0.2s;
+}
+
+.navlist ul li a:hover{
+    text-decoration: none;
+    color:#150a2841;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.welcome  p{
+    text-decoration: none;
+    color:#150A28;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    background: none;
+}
+
+.logout   {
+    text-decoration: none;
+    color:#150A28;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.section1 .text h1{
+    position: absolute;
+    width: 640px;
+    height: 240px;
+    left: 75px;
+    top: 200px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 114%;
+    letter-spacing: 0.015em;
+    color: #150A28;
+}
+
+.section1 .gambar1 img{
+    position: absolute;
+    width: 840px;
+    height: 776px;
+    left: 654px;
+    top: 124px;
+}
+
+.section1 .OurProd{
+    position: absolute;
+    width: 138px;
+    height: 38px;
+    left: 82px;
+    top: 530px;
+    background-color: #6B24FC;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #F8F8FA;
+    transition: 0.3s;
+    
+}
+
+.section1 .OurProd:hover{
+    position: absolute;
+    width: 138px;
+    height: 38px;
+    left: 82px;
+    top: 530px;
+    border: 1px solid #150A28;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: #F8F8FA;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+      
+}
+
+.section2 .preshop .card{
+    margin-top: -1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 77px;
+}
+
+.section2 .preshop .card .card-cont .layer1{
+    /* margin-top: 939px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 77px; */
+    background: #F8F8FA;
+    border: 1px solid #150A28;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 380px;
+    width: 307px;
+}
+
+.section2 .preshop .card .card-cont .layer1 .image img{
+    height: 307px;
+    width: 299.5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-left: 5px;
+    
+}
+
+.section2 .preshop .card .card-cont .layer2{
+    position:absolute;
+    margin-top: -161px;
+    padding: 77px;
+    background: #FFFFFF;
+    border: 1px solid #150A28;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 161px;
+    width: 307px;
+}
+
+.section2 .preshop .card .card-cont .layer2 h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 10.42%;
+    right: 48.53%;
+    top: 13%;
+    bottom: 28.95%;
+}
+
+.section2 .preshop .card .card-cont .layer2 p{
+    position: absolute;
+    left: 10.42%;
+    right: 11.07%;
+    top: 31%;
+    bottom: 18.42%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+.section2 .preshop .card .card-cont .layer2 h4{
+    position: absolute;
+    left: 10.42%;
+    right: 70.36%;
+    top: 68%;
+    bottom: 9.74%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+.section2 .preshop .card .card-cont .layer2 .buynow{
+    position: absolute;
+    left: 69.06%;
+    right: 9.45%;
+    top: 71%;
+    bottom: 8.42%;
+    background: #6B24FC;
+    border-radius: 4px;
+    height: 21px;
+    width: 66px;
+    cursor: pointer;
+}
+
+.section2 .preshop .card .card-cont .layer2 .buynow a{
+    position: absolute;
+    left: 18%;
+    right: 13.36%;
+    top: 30%;
+    bottom: 9.74%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #6B24FC;
+    cursor: pointer;
+}
+
+
+
+.section2 .preshop .card .card-cont2 .layer1{
+    /* margin-top: 939px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 77px; */
+    background: #F8F8FA;
+    border: 1px solid #150A28;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 380px;
+    width: 307px;
+   
+    
+}
+
+.section2 .preshop .card .card-cont2 .layer1 .image img{
+    height: 307px;
+    width: 299.5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-left: 5px;
+    
+}
+
+.section2 .preshop .card .card-cont2 .layer2{
+    position:absolute;
+    margin-top: -161px;
+    padding: 77px;
+    background: #FFFFFF;
+    border: 1px solid #150A28;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 161px;
+    width: 307px;
+}
+
+.section2 .preshop .card .card-cont2 .layer2 h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 10.42%;
+    right: 48.53%;
+    top: 13%;
+    bottom: 28.95%;
+}
+
+.section2 .preshop .card .card-cont2 .layer2 p{
+    position: absolute;
+    left: 10.42%;
+    right: 11.07%;
+    top: 31%;
+    bottom: 18.42%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+.section2 .preshop .card .card-cont2 .layer2 h4{
+    position: absolute;
+    left: 10.42%;
+    right: 70.36%;
+    top: 68%;
+    bottom: 9.74%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+.section2 .preshop .card .card-cont2 .layer2 .buynow{
+    position: absolute;
+    left: 69.06%;
+    right: 9.45%;
+    top: 71%;
+    bottom: 8.42%;
+    background: #6B24FC;
+    border-radius: 4px;
+    height: 21px;
+    width: 66px;
+    cursor: pointer;
+}
+
+.section2 .preshop .card .card-cont2 .layer2 .buynow a{
+    position: absolute;
+    left: 18%;
+    right: 13.36%;
+    top: 30%;
+    bottom: 9.74%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #6B24FC;
+    cursor: pointer;
+}
+
+
+
+.section2 .preshop .card .card-cont3 .layer1{
+    /* margin-top: 939px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 77px; */
+    background: #F8F8FA;
+    border: 1px solid #150A28;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 380px;
+    width: 307px;
+   
+    
+}
+
+.section2 .preshop .card .card-cont3 .layer1 .image img{
+    height: 307px;
+    width: 299.5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-left: 5px;
+    
+}
+
+.section2 .preshop .card .card-cont3 .layer2{
+    position:absolute;
+    margin-top: -161px;
+    padding: 77px;
+    background: #FFFFFF;
+    border: 1px solid #150A28;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 161px;
+    width: 307px;
+}
+
+.section2 .preshop .card .card-cont3 .layer2 h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 10.42%;
+    right: 48.53%;
+    top: 13%;
+    bottom: 28.95%;
+}
+
+.section2 .preshop .card .card-cont3 .layer2 p{
+    position: absolute;
+    left: 10.42%;
+    right: 11.07%;
+    top: 31%;
+    bottom: 18.42%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+.section2 .preshop .card .card-cont3 .layer2 h4{
+    position: absolute;
+    left: 10.42%;
+    right: 70.36%;
+    top: 68%;
+    bottom: 9.74%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+.section2 .preshop .card .card-cont3 .layer2 .buynow{
+    position: absolute;
+    left: 69.06%;
+    right: 9.45%;
+    top: 71%;
+    bottom: 8.42%;
+    background: #6B24FC;
+    border-radius: 4px;
+    height: 21px;
+    width: 66px;
+    cursor: pointer;
+}
+
+.section2 .preshop .card .card-cont3 .layer2 .buynow a{
+    position: absolute;
+    left: 18%;
+    right: 13.36%;
+    top: 30%;
+    bottom: 9.74%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #6B24FC;
+    cursor: pointer;
+}
+
+.section2 .preshop .newprod p{
+    margin-top: 880px;
+    margin-left: 40%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    background-color: #F8F8FA;
+}
+
+.section2 .preshop .card .card-cont:hover{
+    transform: scale(1.05);
+    
+}
+.section2 .preshop .card .card-cont{
+    transition: 0.3s;
+}
+
+.section2 .preshop .card .card-cont2:hover{
+    transform: scale(1.05);
+    
+}
+.section2 .preshop .card .card-cont2{
+    transition: 0.3s;
+}
+
+.section2 .preshop .card .card-cont3:hover{
+    transform: scale(1.05);
+    
+}
+.section2 .preshop .card .card-cont3{
+    transition: 0.3s;
+}
+
+
+.section3 img{
+    position: relative;
+    width: 1286px;
+    height: 964px;
+    left: -336px;
+    top: 10px;
+}
+
+.section3 h1{
+    position: absolute;
+    width: 308px;
+    height: 239px;
+    left: 730px;
+    top: 1600px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    color: #6B24FC;
+}
+
+.section3 p{
+    position: absolute;
+    width: 420px;
+    height: 56px;
+    left: 730px;
+    top: 1910px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    background: none;
+}
+
+.section3 .learnmore{
+    transition: 0.3s;
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 730px;
+    top: 2030px;
+    background: #6B24FC;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+
+    /* position: absolute;
+    width: 70px;
+    height: 15px;
+    left: 745px;
+    top: 1853px; */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F8F8FA;
+}
+
+.section3 .learnmore:hover{
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 730px;
+    top: 2030px;
+    background: #F8F8FA;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+    /* position: absolute;
+    width: 70px;
+    height: 15px;
+    left: 745px;
+    top: 1853px; */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #150A28;
+}
+
+.section4 .kotak{
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    left: 748px;
+    top: 2750px;
+}
+
+.section4 .ard{
+    position: absolute;
+    left: 948px;
+    top: 2550px;
+    background: transparent;
+}
+
+.section4 h1{
+    position: absolute;
+    width: 356px;
+    height: 264px;
+    left: 354px;
+    top: 2680px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: right;
+    color: #6B24FC;
+}
+
+.section4 p{
+    position: absolute;
+    width: 640px;
+    height: 110px;
+    left: 70px;
+    top: 3000px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #000000;
+    background: transparent;
+}
+
+.footer-container{
+    margin-left: -11px;
+}
+
+.footer-container .footer {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+    width: 100%;
+    margin-top: 1000px;
+    background-color: #6B24FC;
+    padding: 50px;
+}
+
+.footer-container .footer .section1{
+    background-color: #6B24FC;
+    text-decoration: none;
+    
+}
+
+.footer-container .footer .section1 h2{
+    background-color: #6B24FC;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.footer-container .footer .section1 a,p{
+    background-color: #6B24FC;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.footer-container .footer .section22{
+    background-color: #6B24FC;
+    text-decoration: none;
+    
+}
+
+.footer-container .footer .section22 h2{
+    background-color: #6B24FC;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-container .footer .section22 a{
+    background-color: #6B24FC;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-container .footer .section3{
+    background-color: #6B24FC;
+    text-decoration: none;
+    
+}
+
+.footer-container .footer .section3 h2{
+    background-color: #6B24FC;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-container .footer .section3 a{
+    background-color: #6B24FC;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-container .footer .section4{
+    background-color: #6B24FC;
+    text-decoration: none;
+    
+}
+
+.footer-container .footer .section4 h2{
+    background-color: #6B24FC;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-container .footer .section4 a{
+    background-color: #6B24FC;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-container .footer .section4{
+    padding-right: 90px;
+}
